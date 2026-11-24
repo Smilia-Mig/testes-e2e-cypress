@@ -9,7 +9,10 @@ jobs:
       - name: Checkout do código
         uses: actions/checkout@v4
 
+      - name: Instalar dependências
+        run: npm install
+
       - name: Executar testes E2E no Cypress
         uses: cypress-io/github-action@v6
         with:
-          install-command: npm install
+          install: false
