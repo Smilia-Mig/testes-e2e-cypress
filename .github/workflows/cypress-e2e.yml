@@ -11,3 +11,5 @@ jobs:
 
       - name: Executar testes E2E no Cypress
         uses: cypress-io/github-action@v6
+        with:
+          install-command: npm install
