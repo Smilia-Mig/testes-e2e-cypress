@@ -1,0 +1,10 @@
+{
+  "name": "testes-e2e-cypress",
+  "version": "1.0.0",
+  "scripts": {
+    "test:e2e": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.15.0"
+  }
+}
